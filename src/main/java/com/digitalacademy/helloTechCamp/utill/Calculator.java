@@ -16,7 +16,7 @@ public class Calculator {
     return num1 * num2;
   }
 
-  public BigDecimal divide(final BigDecimal num1, final BigDecimal num2) {
-    return num1.divide(num2, 3, RoundingMode.CEILING);
+  public int divide(final int num1, final int num2) {
+    return num1 / num2;
   }
 }
