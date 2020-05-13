@@ -8,6 +8,7 @@ public class HelloTechCampApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(HelloTechCampApplication.class, args);
+		System.out.println("Hello Tech Camp 2020 #1");
 	}
 
 }
